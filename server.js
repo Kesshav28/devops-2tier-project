@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("DevOps 2-Tier CI/CD Working 🚀");
+  res.send("DevOps 3-Tier CI/CD Application Working 🚀");
 });
 
 app.listen(3000, () => {
